@@ -1,6 +1,6 @@
 name: Print Message on Push
 on: [push]
-Jobs:
+jobs:
   print_message:
     runs-on: ubuntu-latest
     steps:
