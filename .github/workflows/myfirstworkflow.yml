@@ -1,0 +1,8 @@
+name: Print Message on Push
+on: [push]
+Jobs:
+  print_message:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello World
+        run: echo "Hello, World!"
